@@ -1,0 +1,41 @@
+ build\x64\Release\OpenPoseDemo.exe --video CRmedia\test\face00097395.mp4 --frame_step 1--number_people_max 1 --keypoint_scale 4 --write_json CRmedia\json\test 
+ --write_keypoint CRmedia\json\ky --write_keypoint_format "xml"
+ --hand --face
+
+ --part_to_show 4
+
+
+ --process_real_time true
+ --part_candidates true
+
+ build\x64\Release\OpenPoseDemo.exe --video CRmedia\test\face00097395.mp4  
+  --hand true
+  --process_real_time true
+
+$videos = Get-ChildItem "CRmedia\test"
+foreach ($v in $videos){
+
+
+//method yumengH
+foreach ($v in Get-ChildItem "CRmedia\bodyvocab\"){
+	$in = "CRmedia\bodyvocab\"+$v.Name
+	$out = "CRmedia\json\json_vocab\"+$v.Name
+	build\x64\Release\OpenPoseDemo.exe --video $in --frame_step 10 --number_people_max 2 --keypoint_scale 4 --write_json $out
+}
+//multi-person, dirty jumping data needs to be ticked out
+
+build\x64\Release\OpenPoseDemo.exe --video CRmedia\bodyvocab\Untitled0490.mp4 --frame_step 1--number_people_max 2 --keypoint_scale 4 --write_json CRmedia\json\vocabjson\
+
+
+//method yumengH
+foreach ($v in Get-ChildItem "CRmedia\sidecuts\"){
+	$in = "CRmedia\sidecuts\"+$v.Name
+	$out = "CRmedia\json\json_side\"+$v.Name
+	build\x64\Release\OpenPoseDemo.exe --video $in --frame_step 10 --number_people_max 1 --keypoint_scale 4 --write_json $out
+}
+
+foreach ($v in Get-ChildItem "CRmedia\facecuts\"){
+	$in = "CRmedia\facecuts\"+$v.Name
+	$out = "CRmedia\json\json_front\"+$v.Name
+	build\x64\Release\OpenPoseDemo.exe --video $in --frame_step 10 --number_people_max 1 --keypoint_scale 4 --write_json $out
+}

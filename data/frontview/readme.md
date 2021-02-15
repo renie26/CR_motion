@@ -1,0 +1,1 @@
+Sample data extracted using OpenPose
