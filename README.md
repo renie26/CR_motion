@@ -44,13 +44,13 @@ I'd like to recognize the contribution of my collaborating students:
 ### Libraries
 
 Depending on your preferable solution to keypoint extraction:
-- [*OpenPose*](https://github.com/CMU-Perceptual-Computing-Lab/openpose) or [*PoseNet*](https://github.com/tensorflow/tfjs-models/tree/master/posenet) and their respective dependencies
+- [**OpenPose**](https://github.com/CMU-Perceptual-Computing-Lab/openpose) or [**PoseNet**](https://github.com/tensorflow/tfjs-models/tree/master/posenet) and their respective dependencies
 
 If you choose to implement supervised classification:
-- [*scikit-learn*](https://scikit-learn.org/stable/)
-- [*tslearn*](https://tslearn.readthedocs.io/en/stable/)
+- [**scikit-learn**](https://scikit-learn.org/stable/)
+- [**tslearn**](https://tslearn.readthedocs.io/en/stable/)
 If you choose to implement unsupervised clustering:
-- [*dtaidistance*](https://dtaidistance.readthedocs.io/en/latest/usage/dtw.html)
+- [**dtaidistance**](https://dtaidistance.readthedocs.io/en/latest/usage/dtw.html)
 
 Other common dependencies include:
 - ```scipy```
