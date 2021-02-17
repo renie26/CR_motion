@@ -1,0 +1,9 @@
+<!-- An example of how to extract keypoints to JSON simply using OpenPose API in the PowerShell -->
+build\x64\Release\OpenPoseDemo.exe --video CRmedia\bodyvocab\Untitled0490.mp4 --frame_step 1--number_people_max 2 --keypoint_scale 4 --write_json CRmedia\json\vocabjson\
+
+<!-- An example of how to traverse your folder and extract keypoints from each media file -->
+foreach ($v in Get-ChildItem "CRmedia\bodyvocab\"){
+	$in = "CRmedia\bodyvocab\"+$v.Name
+	$out = "CRmedia\json\json_vocab\"+$v.Name
+	build\x64\Release\OpenPoseDemo.exe --video $in --frame_step 10 --number_people_max 2 --keypoint_scale 4 --write_json $out
+}

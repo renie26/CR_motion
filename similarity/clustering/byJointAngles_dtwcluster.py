@@ -1,7 +1,9 @@
-#import random
+"""
+Implemented by Y.H EPFL 2020
+"""
+
 from copy import deepcopy
 import os
-#from scipy import interpolate
 import numpy as np
 import pandas as pd
 from dtaidistance import dtw

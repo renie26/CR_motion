@@ -1,8 +1,12 @@
-#python ../search_t.py face00103135 "1"
+"""
+Implemented by Y.H EPFL 2020
+"""
+# python ../search.py face00103135 "1"
+
 import sys
 model = sys.argv[2] # 1: upper body, 2: lower body, 3: body stem, 4: right side, 5: left side
 
-from dtwcluster_t import key,filenames,trajectories
+from dtwcluster import key,filenames,jointAngles
 
 searchterm = sys.argv[1] + '_keypoints.csv'
 simterm=[]
@@ -22,7 +26,7 @@ searchIdx = fidx+1
 #searchterm = filenames[searchIdx-1]
 
 print(searchIdx) # prints var1
-for key, _ in trajectories.items():
+for key, _ in jointAngles.items():
     if searchIdx in key:
         for index in key:
             simterm.append(filenames[index-1].rsplit("_", 1)[0]+'.mp4')
@@ -30,12 +34,3 @@ for key, _ in trajectories.items():
 print('Clustering Results:')
 print(simterm)
 
-
-
-'''
-for key, _ in trajectories.items():
-    if searchIdx in key:
-        for index in key:
-            print("sim_v:"+filenames[index-1])
-
-'''

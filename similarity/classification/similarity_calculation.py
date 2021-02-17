@@ -1,3 +1,8 @@
+"""
+Acknowledgement: 
+Implementation by Fadel Mamar Seydou, Alessandro Fornaroli, Razvan-Florin Mocan
+Motion-based Similarity Search in Videos of Confucian Rituals" (EPFL, 2020)
+"""  
 import numpy as np
 import math
 import time

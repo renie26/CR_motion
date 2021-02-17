@@ -1,3 +1,9 @@
+"""
+Acknowledgement: 
+Implementation by Fadel Mamar Seydou, Alessandro Fornaroli, Razvan-Florin Mocan
+Motion-based Similarity Search in Videos of Confucian Rituals" (EPFL, 2020)
+"""  
+
 """  
 This Demo will execute the similarity calculation based on
  dynamic time wrapping and  a Radial basis function.
