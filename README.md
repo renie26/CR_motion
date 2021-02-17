@@ -13,7 +13,7 @@ The code, implemented in Python, is produced from the EPFL-EDDH Semester Project
       * [Libraries](#libs)
       * [Data](#data)
    * [Methodology](#prerequisites)
-      * [Preprocessing](#preproces)
+      * [Pre-processing](#preprocess)
       * [Feature Construction](#feature)
       * [Similarity Modelling](#similarity)
    * [Contact & Contribute](#contact)
@@ -29,16 +29,14 @@ The proposed framework works as follows:
 	Afterwards, we 
 		a) (supervised) train the similarity model using respective method e.g. DTW, Soft-DTW and RBF, and then average the computed models towards an optimal status. 
 		b) (unsupervised) cluster the videos based on series distance (e.g. DTW clustering) while providing the flexibility of only computing a subset of parameters by selecting one of the predefined models, e.g. limb-only. 
-Given a new query video, our workflow is capable to process its motion features, compute the similariy, and return the top-k or nearest results effectively and rapidly. 
+Given a new query video, our workflow is capable to process its motion features, compute the similarity, and return the top-k or nearest results effectively and rapidly. 
 
 
 ## Acknowledgement
 
 I'd like to recognize the contribution of my collaborating students:
-* [**F. M. Seydou**](https://ch.linkedin.com/in/fadel-mamar-seydou-460a43197s)
-	F.M. Seydou and his team contributed their implementation of supervised methodologies, including DTW-, RBF- and model averaging approaches. 
-* [**@davidcian**](https://gitlab.com/davidcian) 
-	@davidcian and his team inspired me use dendogram to visually inspect the quality of clistering.
+* [**F. M. Seydou**](https://ch.linkedin.com/in/fadel-mamar-seydou-460a43197s), A. Fornaroli and R. Mocan contributed their implementation of supervised methodologies, including DTW-, RBF- and model averaging approaches. 
+* [**D. Cian**](https://gitlab.com/davidcian) J. Quiroz and A. Aboueloul contributed various methods to inspect the quality of classification and clustering.
 
 
 ## Prerequisites
@@ -48,7 +46,7 @@ I'd like to recognize the contribution of my collaborating students:
 Depending on your preferable solution to keypoint extraction:
 - [*OpenPose*](https://github.com/CMU-Perceptual-Computing-Lab/openpose) or [*PoseNet*](https://github.com/tensorflow/tfjs-models/tree/master/posenet) and their respective dependencies
 
-If you choose to implement supervised clasification:
+If you choose to implement supervised classification:
 - [*scikit-learn*](https://scikit-learn.org/stable/)
 - [*tslearn*](https://tslearn.readthedocs.io/en/stable/)
 If you choose to implement unsupervised clustering:
@@ -81,9 +79,9 @@ Due to confidentiality, we only provide samples of data from different stages:
 
 ## Methodology
 
-### Preprocessing
+### Pre-processing
 
-#### Feature Constrcution 
+#### Feature Construction  
 
 ```../feature/feature_processing``` contains all the essential functions to construct motion features out of the extracted raw data. Specifically, function ```dataset_preprocessing``` performs the following operations:
 - Standardization (using ```sklearn```)
@@ -92,14 +90,14 @@ Due to confidentiality, we only provide samples of data from different stages:
 - PCA Dimensionality reduction (using ```sklearn```)
 
 
-#### Other Preprocessing Efforts
+#### Additional Work
 
-You can also find assisting scripts in this folder ```../feature/```, which perform various pre-processsing functions including original keypoint extraction using OpenPose and PoseNet, trajectory and joint angle calculation, data transformation, time-series calculation and harmonization for different similarity modelling approaches.
+You can also find assisting scripts in this folder ```../feature/```, which perform various pre-processing functions including original keypoint extraction using OpenPose and PoseNet, trajectory and joint angle calculation, data transformation, time-series calculation and harmonization for different similarity modelling approaches.
 
 
 ## Similarity Modelling
 
-The folder ```../similarity/``` contatins scripts for similarity modelling using different approaches.
+The folder ```../similarity/``` contains scripts for similarity modelling using different approaches.
 
 ### Classification
 
@@ -107,13 +105,13 @@ The folder ```../similarity/``` contatins scripts for similarity modelling using
 
 - ```similarity_dtw``` computes the similarity using Dynamic Time Warping (DTW). 
 - ```similarity_soft_dtw``` uses the soft-min approach to DTW (Cuturi and Blondel, 2017)
-- ```similarity_rbf_based``` adoptes the usage of radial basis function kernel
+- ```similarity_rbf_based``` adopts the usage of radial basis function kernel
 
-The retrival function ```retrieve_top_k``` will return the $k$ videos that are most similar to the query given input dataset. This function allows to select any of the aforementioned similarity functions or switch to model averaging, and calculates accordingly.
+The retrieval function ```retrieve_top_k``` will return the $k$ videos that are most similar to the query given input dataset. This function allows to select any of the aforementioned similarity functions or switch to model averaging, and calculates accordingly.
 
-The feedback function ```Feedback``` will return the F1 score over the $k$ videos retrieved. The F1 metric is formed as the correctiveness of ```motion tags``` provided by the annotation file.
+The feedback function ```Feedback``` will return the F1 score over the $k$ videos retrieved. The F1 metric is formed as the correctness of ```motion tags``` provided by the annotation file.
 
-- ```Demo_run.py```executes the similarity computation by averaging DTW nad RBF methods and displays a graph of performance on ```../data/sideview```.
+- ```Demo_run.py```executes the similarity computation by averaging DTW and RBF methods and displays a graph of performance on ```../data/sideview```.
 
 
 #### Clustering
