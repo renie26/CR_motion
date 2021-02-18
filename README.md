@@ -49,6 +49,7 @@ Depending on your preferable solution to keypoint extraction:
 If you choose to implement supervised classification:
 - [**scikit-learn**](https://scikit-learn.org/stable/)
 - [**tslearn**](https://tslearn.readthedocs.io/en/stable/)
+
 If you choose to implement unsupervised clustering:
 - [**dtaidistance**](https://dtaidistance.readthedocs.io/en/latest/usage/dtw.html)
 
