@@ -83,7 +83,7 @@ Due to confidentiality, we only provide samples of data from different stages:
 
 #### Feature Construction  
 
-```../feature/feature_processing``` contains all the essential functions to construct motion features out of the extracted raw data. Specifically, function ```dataset_preprocessing``` performs the following operations:
+```../scripts/feature_processing``` contains all the essential functions to construct motion features out of the extracted raw data. Specifically, function ```dataset_preprocessing``` performs the following operations:
 - Standardization (using ```sklearn```)
 - Feature expansion, which includes cosine, sine, square root and polynomial expansion of degree 3.
 - Angular velocity and acceleration calculation, which are important to analyse the motion that occurs in a video. Velocities are calculated as the angle difference between frames and accelerations are found as difference in velocities.
@@ -92,16 +92,16 @@ Due to confidentiality, we only provide samples of data from different stages:
 
 #### Additional Work
 
-You can also find assisting scripts in this folder ```../feature/```, which perform various pre-processing functions including original keypoint extraction using OpenPose and PoseNet, trajectory and joint angle calculation, data transformation, time-series calculation and harmonization for different similarity modelling approaches.
+You can also find assisting scripts in this folder ```../scripts/pre-prosessing```, which perform various pre-processing functions including original keypoint extraction using OpenPose and PoseNet, trajectory and joint angle calculation, data transformation, time-series calculation and harmonization for different similarity modelling approaches.
 
 
 ## Similarity Modelling
 
-The folder ```../similarity/``` contains scripts for similarity modelling using different approaches.
+The folder ```../clustering/``` and ```../classification/``` contain scripts for similarity modelling using respective approaches.
 
 ### Classification
 
-```../similarity/classification/similarity_calculation.py``` contains the core functions to compute similarity between videos, where each video is considered as a multidimensional time series of different frames.
+```../classification/similarity_calculation.py``` contains the core functions to compute similarity between videos, where each video is considered as a multidimensional time series of different frames.
 
 - ```similarity_dtw``` computes the similarity using Dynamic Time Warping (DTW). 
 - ```similarity_soft_dtw``` uses the soft-min approach to DTW (Cuturi and Blondel, 2017)
@@ -116,12 +116,12 @@ The feedback function ```Feedback``` will return the F1 score over the $k$ video
 
 #### Clustering
 
-```../similarity/clustering/..._dtwcluster.py``` contains the core functions to cluster the videos based on the similarity distance (using ```dtaidistance```) between motion times series.
+```../clustering/..._dtwcluster.py``` contains the core functions to cluster the videos based on the similarity distance (using ```dtaidistance```) between motion times series.
 
-```../similarity/clustering/..._search.py``` executes the workflow of processing the query video (called through argv[1]), computing similarity with the selected subset of parameters (called by argv[2]) and returning the members within respective cluster. 
+```../clustering/..._search.py``` executes the workflow of processing the query video (called through argv[1]), computing similarity with the selected subset of parameters (called by argv[2]) and returning the members within respective cluster. 
 
-- ```../similarity/clustering/byJointAngles....py``` models the motion features using body joint angles. 
-- ```../similarity/clustering/byTrajectories....py``` models the motion features using keypoint trajectories. 
+- ```../clustering/byJointAngles....py``` models the motion features using body joint angles. 
+- ```../clustering/byTrajectories....py``` models the motion features using keypoint trajectories. 
 
 
 ## Contact & Contribute
