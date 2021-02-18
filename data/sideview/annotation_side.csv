@@ -1,41 +1,42 @@
-filename ,Action chinese,Action,motion tags,View
-poseside00090000.mov,1   正立,Standing Straight.mov,"Standing,Straight",side
-poseside00090292.mov,2   微磬,Standing Respectfully.mov,"Standing,Respectfully",side
-poseside00090516.mov,3   磬折,Standing Solemnly.mov,"Standing,Solemnly",side
-poseside00090751.mov,4   卑立,Standing Humbly.mov,"Standing,Humbly",side
-poseside00090994.mov,5   叉手而立,Arch-Armed Standing.mov,"Arch-Armed,Standing,Respectfully",side
-poseside00091219.mov,6   跪,Kneeling Down.mov,"Kneeling Down,Respectfully",side
-poseside00091759.mov,7   興,Standing Up.mov,"Standing Up,Respectfully",side
-poseside00092281.mov,8   正坐,Sitting Straight.mov,"Sitting,Straight",side
-poseside00092497.mov,9   恭坐,Sitting Respectfully.mov,"Sitting,Respectfully",side
-poseside00092722.mov,10   肅坐,Sitting Solemnly.mov,"Sitting,Solemnly",side
-poseside00092956.mov,11   卑坐,Sitting Humbly.mov,"Sitting,Humbly",side
-poseside00093190.mov,12   肅拜,Saluting With Solemn Respect.mov,"Saluting,Solemnly,Standing",side
-poseside00093541.mov,13   空首,Saluting “Kong Shou”.mov,"Saluting,Kong Shou,Head-in-hand,Three times",side
-poseside00094144.mov,14   顿首,Saluting “Dun Shou”.mov,"Saluting,Dun Shou,Head-in-hand,Three times",side
-poseside00094819.mov,15   稽首,Saluting “Qi Shou”.mov,"Saluting,Qi Shou,Head-in-hand,Three times",side
-poseside00095773.mov,16   行之接武,Walking Casually Short Step.mov,"Walking,Casually,Short Step",side
-poseside00096376.mov,17   行之繼武,Walking Casually Normal Step.mov,"Walking,Casually,Normal Step",side
-poseside00096952.mov,18   行之步武,Walking Casually Long Step.mov,"Walking,Casually,Long Step",side
-poseside00097312.mov,19   徐趨之接武,Walking Carefully Short Step.mov,"Walking,Carefully,Short Step",side
-poseside00097654.mov,20   徐趨之繼武,Walking Carefully Normal Step.mov,"Walking,Carefully,Normal Step",side
-poseside00098041.mov,21   徐趨之步武,Walking Carefully Long Step.mov,"Walking,Carefully,Long Step",side
-poseside00098291.mov,22   疾趨之接武,Hurry Short Step.mov,"Walking,Hurriedly,Short Step",side
-poseside00098653.mov,23   疾趨之繼武,Hurry Normal Step.mov,"Walking,Hurriedly,Normal Step",side
-poseside00098941.mov,24  疾趨之步武,Hurry Long Step.mov,"Walking,Hurriedly,Long Step",side
-poseside00099229.mov,25   升,Going Up Stairs.mov,"Walking Up,Stairs",side
-poseside00099767.mov,26   降,Going Down Stairs.mov,"Walking Down,Stairs",side
-poseside00100327.mov,27.1   折旋（站立：右）,"Turn to the Side, Standing: Right.mov","Turning,to the Right,Standing",side
-poseside00100633.mov,27.2   折旋（站立：左）,"Turn to the Side, Standing: Left.mov","Turning,to the Left,Standing",side
-poseside00101038.mov,28.1   折旋（行進：右）,"Turn to the Side, Walking: Right.mov","Turning,to the Right,Walking",side
-poseside00101452.mov,28.2   折旋（行進：左）,"Turn to the Side, Walking: Left.mov","Turning,to the Left,Walking",side
-poseside00101911.mov,28.3   周旋（行進：右）,"Turn Around, Walking: Right.mov","Turning Around,to the Right,Walking",side
-poseside00102478.mov,28.4   周旋（行進：左）,"Turn Around, Walking: Left.mov","Turning Around,to the Left,Walking",side
-poseside00103054.mov,29   揖,Salute to Guide One’s Way.mov,"Salute,Solemnly,Guide Way",side
-poseside00103378.mov,30   厭,Salute of Humility.mov,"Salute,Humbly",side
-poseside00103684.mov,31   天揖,Salute to the Sky.mov,"Salute to the Sky,Standing,Humbly",side
-poseside00104026.mov,32   地揖,Salute to the Earth.mov,"Salute to the Earth, Standing,Humbly",side
-poseside00104341.mov,33   長揖,Salute Deeply.mov,"Salute Standing,Humbly",side
-poseside00104719.mov,34   再拜（立）,Salute Two Times (Standing).mov,"Salute,Two Times,Humbly,Standing",side
-poseside00105151.mov,35   再拜（坐）,Salute Two Times (Sitting).mov,"Salute,Two Times,Humbly,Sitting",side
-poseside00105646.mov,36   一拜（坐）,Salute One Time (Sitting).mov,"Salute,Humbly,Sitting",side
+Column1;Column3;Column4;Column5
+filename ;Action;motion tags;View
+poseside00090000.mov;Standing Straight.mov;Standing,Straight;side
+poseside00090292.mov;Standing Respectfully.mov;Standing,Respectfully;side
+poseside00090516.mov;Standing Solemnly.mov;Standing,Solemnly;side
+poseside00090751.mov;Standing Humbly.mov;Standing,Humbly;side
+poseside00090994.mov;Arch-Armed Standing.mov;Arch-Armed,Standing,Respectfully;side
+poseside00091219.mov;Kneeling Down.mov;Kneeling Down,Respectfully;side
+poseside00091759.mov;Standing Up.mov;Standing Up,Respectfully;side
+poseside00092281.mov;Sitting Straight.mov;Sitting,Straight;side
+poseside00092497.mov;Sitting Respectfully.mov;Sitting,Respectfully;side
+poseside00092722.mov;Sitting Solemnly.mov;Sitting,Solemnly;side
+poseside00092956.mov;Sitting Humbly.mov;Sitting,Humbly;side
+poseside00093190.mov;Saluting With Solemn Respect.mov;Saluting,Solemnly,Standing;side
+poseside00093541.mov;Saluting �Kong Shou�.mov;Saluting,Kong Shou,Head-in-hand,Three times;side
+poseside00094144.mov;Saluting �Dun Shou�.mov;Saluting,Dun Shou,Head-in-hand,Three times;side
+poseside00094819.mov;Saluting �Qi Shou�.mov;Saluting,Qi Shou,Head-in-hand,Three times;side
+poseside00095773.mov;Walking Casually Short Step.mov;Walking,Casually,Short Step;side
+poseside00096376.mov;Walking Casually Normal Step.mov;Walking,Casually,Normal Step;side
+poseside00096952.mov;Walking Casually Long Step.mov;Walking,Casually,Long Step;side
+poseside00097312.mov;Walking Carefully Short Step.mov;Walking,Carefully,Short Step;side
+poseside00097654.mov;Walking Carefully Normal Step.mov;Walking,Carefully,Normal Step;side
+poseside00098041.mov;Walking Carefully Long Step.mov;Walking,Carefully,Long Step;side
+poseside00098291.mov;Hurry Short Step.mov;Walking,Hurriedly,Short Step;side
+poseside00098653.mov;Hurry Normal Step.mov;Walking,Hurriedly,Normal Step;side
+poseside00098941.mov;Hurry Long Step.mov;Walking,Hurriedly,Long Step;side
+poseside00099229.mov;Going Up Stairs.mov;Walking Up,Stairs;side
+poseside00099767.mov;Going Down Stairs.mov;Walking Down,Stairs;side
+poseside00100327.mov;Turn to the Side, Standing: Right.mov;Turning,to the Right,Standing;side
+poseside00100633.mov;Turn to the Side, Standing: Left.mov;Turning,to the Left,Standing;side
+poseside00101038.mov;Turn to the Side, Walking: Right.mov;Turning,to the Right,Walking;side
+poseside00101452.mov;Turn to the Side, Walking: Left.mov;Turning,to the Left,Walking;side
+poseside00101911.mov;Turn Around, Walking: Right.mov;Turning Around,to the Right,Walking;side
+poseside00102478.mov;Turn Around, Walking: Left.mov;Turning Around,to the Left,Walking;side
+poseside00103054.mov;Salute to Guide One�s Way.mov;Salute,Solemnly,Guide Way;side
+poseside00103378.mov;Salute of Humility.mov;Salute,Humbly;side
+poseside00103684.mov;Salute to the Sky.mov;Salute to the Sky,Standing,Humbly;side
+poseside00104026.mov;Salute to the Earth.mov;Salute to the Earth, Standing,Humbly;side
+poseside00104341.mov;Salute Deeply.mov;Salute Standing,Humbly;side
+poseside00104719.mov;Salute Two Times (Standing).mov;Salute,Two Times,Humbly,Standing;side
+poseside00105151.mov;Salute Two Times (Sitting).mov;Salute,Two Times,Humbly,Sitting;side
+poseside00105646.mov;Salute One Time (Sitting).mov;Salute,Humbly,Sitting;side

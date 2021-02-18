@@ -1,41 +1,42 @@
-filename ,Action chinese,Action,motion tags,View
-face00090145_keypoints.csv,1   正立,Standing Straight.mov,"Standing,Straight",front
-face00090365_keypoints.csv,2   微磬,Standing Respectfully.mov,"Standing,Respectfully",front
-face00090606_keypoints.csv,3   磬折,Standing Solemnly.mov,"Standing,Solemnly",front
-face00090823_keypoints.csv,4   卑立,Standing Humbly.mov,"Standing,Humbly",front
-face00091066_keypoints.csv,5   叉手而立,Arch-Armed Standing.mov,"Arch-Armed,Standing,Respectfully",front
-face00091309_keypoints.csv,6   跪,Kneeling Down.mov,"Kneeling Down,Respectfully",front
-face00091840_keypoints.csv,7   興,Standing Up.mov,"Standing Up,Respectfully",front
-face00092353_keypoints.csv,8   正坐,Sitting Straight.mov,"Sitting,Straight",front
-face00092576_keypoints.csv,9   恭坐,Sitting Respectfully.mov,"Sitting,Respectfully",front
-face00092822_keypoints.csv,10   肅坐,Sitting Solemnly.mov,"Sitting,Solemnly",front
-face00093037_keypoints.csv,11   卑坐,Sitting Humbly.mov,"Sitting,Humbly",front
-face00093280_keypoints.csv,12   肅拜,Saluting With Solemn Respect.mov,"Saluting,Solemnly,Standing",front
-face00093632_keypoints.csv,13   空首,Saluting “Kong Shou”.mov,"Saluting,Kong Shou,Head-in-hand,Three times",front
-face00094245_keypoints.csv,14   顿首,Saluting “Dun Shou”.mov,"Saluting,Dun Shou,Head-in-hand,Three times",front
-face00094918_keypoints.csv,15   稽首,Saluting “Qi Shou”.mov,"Saluting,Qi Shou,Head-in-hand,Three times",front
-face00095872_keypoints.csv,16   行之接武,Walking Casually Short Step.mov,"Walking,Casually,Short Step",front
-face00096611_keypoints.csv,17   行之繼武,Walking Casually Normal Step.mov,"Walking,Casually,Normal Step",front
-face00097034_keypoints.csv,18   行之步武,Walking Casually Long Step.mov,"Walking,Casually,Long Step",front
-face00097395_keypoints.csv,19   徐趨之接武,Walking Carefully Short Step.mov,"Walking,Carefully,Short Step",front
-face00097843_keypoints.csv,20   徐趨之繼武,Walking Carefully Normal Step.mov,"Walking,Carefully,Normal Step",front
-face00098148_keypoints.csv,21   徐趨之步武,Walking Carefully Long Step.mov,"Walking,Carefully,Long Step",front
-face00098374_keypoints.csv,22   疾趨之接武,Hurry Short Step.mov,"Walking,Hurriedly,Short Step",front
-face00098770_keypoints.csv,23   疾趨之繼武,Hurry Normal Step.mov,"Walking,Hurriedly,Normal Step",front
-face00099077_keypoints.csv,24  疾趨之步武,Hurry Long Step.mov,"Walking,Hurriedly,Long Step",front
-face00099310_keypoints.csv,25   升,Going Up Stairs.mov,"Walking Up,Stairs",front
-face00099857_keypoints.csv,26   降,Going Down Stairs.mov,"Walking Down,Stairs",front
-face00100408_keypoints.csv,27.1   折旋（站立：右）,"Turn to the Side, Standing: Right.mov","Turning,to the Right,Standing",front
-face00100723_keypoints.csv,27.2   折旋（站立：左）,"Turn to the Side, Standing: Left.mov","Turning,to the Left,Standing",front
-face00101118_keypoints.csv,28.1   折旋（行進：右）,"Turn to the Side, Walking: Right.mov","Turning,to the Right,Walking",front
-face00101542_keypoints.csv,28.2   折旋（行進：左）,"Turn to the Side, Walking: Left.mov","Turning,to the Left,Walking",front
-face00101993_keypoints.csv,28.3   周旋（行進：右）,"Turn Around, Walking: Right.mov","Turning Around,to the Right,Walking",front
-face00102550_keypoints.csv,28.4   周旋（行進：左）,"Turn Around, Walking: Left.mov","Turning Around,to the Left,Walking",front
-face00103135_keypoints.csv,29   揖,Salute to Guide One’s Way.mov,"Saluting,Solemnly,Guide Way",front
-face00103460_keypoints.csv,30   厭,Salute of Humility.mov,"Saluting,Humbly",front
-face00103774_keypoints.csv,31   天揖,Salute to the Sky.mov,"Saluting to the Sky,Standing,Humbly",front
-face00104098_keypoints.csv,32   地揖,Salute to the Earth.mov,"Saluting to the Earth, Standing,Humbly",front
-face00104431_keypoints.csv,33   長揖,Salute Deeply.mov,"Saluting Standing,Humbly",front
-face00104809_keypoints.csv,34   再拜（立）,Salute Two Times (Standing).mov,"Saluting,Two Times,Humbly,Standing",front
-face00105223_keypoints.csv,35   再拜（坐）,Salute Two Times (Sitting).mov,"Saluting,Two Times,Humbly,Sitting",front
-face00105720_keypoints.csv,36   一拜（坐）,Salute One Time (Sitting).mov,"Saluting,Humbly,Sitting",front
+Column1;Column3;Column4;Column5
+filename ;Action;motion tags;View
+face00090145_keypoints.csv;Standing Straight.mov;Standing,Straight;front
+face00090365_keypoints.csv;Standing Respectfully.mov;Standing,Respectfully;front
+face00090606_keypoints.csv;Standing Solemnly.mov;Standing,Solemnly;front
+face00090823_keypoints.csv;Standing Humbly.mov;Standing,Humbly;front
+face00091066_keypoints.csv;Arch-Armed Standing.mov;Arch-Armed,Standing,Respectfully;front
+face00091309_keypoints.csv;Kneeling Down.mov;Kneeling Down,Respectfully;front
+face00091840_keypoints.csv;Standing Up.mov;Standing Up,Respectfully;front
+face00092353_keypoints.csv;Sitting Straight.mov;Sitting,Straight;front
+face00092576_keypoints.csv;Sitting Respectfully.mov;Sitting,Respectfully;front
+face00092822_keypoints.csv;Sitting Solemnly.mov;Sitting,Solemnly;front
+face00093037_keypoints.csv;Sitting Humbly.mov;Sitting,Humbly;front
+face00093280_keypoints.csv;Saluting With Solemn Respect.mov;Saluting,Solemnly,Standing;front
+face00093632_keypoints.csv;Saluting �Kong Shou�.mov;Saluting,Kong Shou,Head-in-hand,Three times;front
+face00094245_keypoints.csv;Saluting �Dun Shou�.mov;Saluting,Dun Shou,Head-in-hand,Three times;front
+face00094918_keypoints.csv;Saluting �Qi Shou�.mov;Saluting,Qi Shou,Head-in-hand,Three times;front
+face00095872_keypoints.csv;Walking Casually Short Step.mov;Walking,Casually,Short Step;front
+face00096611_keypoints.csv;Walking Casually Normal Step.mov;Walking,Casually,Normal Step;front
+face00097034_keypoints.csv;Walking Casually Long Step.mov;Walking,Casually,Long Step;front
+face00097395_keypoints.csv;Walking Carefully Short Step.mov;Walking,Carefully,Short Step;front
+face00097843_keypoints.csv;Walking Carefully Normal Step.mov;Walking,Carefully,Normal Step;front
+face00098148_keypoints.csv;Walking Carefully Long Step.mov;Walking,Carefully,Long Step;front
+face00098374_keypoints.csv;Hurry Short Step.mov;Walking,Hurriedly,Short Step;front
+face00098770_keypoints.csv;Hurry Normal Step.mov;Walking,Hurriedly,Normal Step;front
+face00099077_keypoints.csv;Hurry Long Step.mov;Walking,Hurriedly,Long Step;front
+face00099310_keypoints.csv;Going Up Stairs.mov;Walking Up,Stairs;front
+face00099857_keypoints.csv;Going Down Stairs.mov;Walking Down,Stairs;front
+face00100408_keypoints.csv;Turn to the Side, Standing: Right.mov;Turning,to the Right,Standing;front
+face00100723_keypoints.csv;Turn to the Side, Standing: Left.mov;Turning,to the Left,Standing;front
+face00101118_keypoints.csv;Turn to the Side, Walking: Right.mov;Turning,to the Right,Walking;front
+face00101542_keypoints.csv;Turn to the Side, Walking: Left.mov;Turning,to the Left,Walking;front
+face00101993_keypoints.csv;Turn Around, Walking: Right.mov;Turning Around,to the Right,Walking;front
+face00102550_keypoints.csv;Turn Around, Walking: Left.mov;Turning Around,to the Left,Walking;front
+face00103135_keypoints.csv;Salute to Guide One�s Way.mov;Saluting,Solemnly,Guide Way;front
+face00103460_keypoints.csv;Salute of Humility.mov;Saluting,Humbly;front
+face00103774_keypoints.csv;Salute to the Sky.mov;Saluting to the Sky,Standing,Humbly;front
+face00104098_keypoints.csv;Salute to the Earth.mov;Saluting to the Earth, Standing,Humbly;front
+face00104431_keypoints.csv;Salute Deeply.mov;Saluting Standing,Humbly;front
+face00104809_keypoints.csv;Salute Two Times (Standing).mov;Saluting,Two Times,Humbly,Standing;front
+face00105223_keypoints.csv;Salute Two Times (Sitting).mov;Saluting,Two Times,Humbly,Sitting;front
+face00105720_keypoints.csv;Salute One Time (Sitting).mov;Saluting,Humbly,Sitting;front
